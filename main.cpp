@@ -12,7 +12,7 @@ T middleValue(const std::vector<T>& arr) {
       value = value + arr[i];
     }
 
-    return value / static_cast<T>(arr.size());
+    return value / arr.size();
   } catch (const std::exception x) {
     std::cerr << "Emty vector";
   }
